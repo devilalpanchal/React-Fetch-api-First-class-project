@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   border: 10px double blue;
-  height: 100vh;
+  height: 100%;
 }
 body{
   margin: 0;
@@ -16,7 +16,30 @@ body{
   padding: 10px;
   background-color: #0c040433;
 }
-
+.divone{
+  width: "15em";
+  background-color: "#35D841";
+  padding: 2;
+  border-radius: 10;
+}
+.para{
+  font-size: 20;
+  color: 'white'
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.205);
+  margin-left: 80px;
+  margin-right: 80px;
+  color: white;
+  font-size: 25px;
+}
+.imge{
+  width: 100px;
+  height: 100px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
